@@ -16,9 +16,10 @@ if enter == pin:
             print('insufficent')
     elif option == 2:
         atm = float(input('enter amount'))
-        atm+=balance
+        balance+=atm
         print('avalilable: ',atm)
     elif option == 3:
         print(balance)
 else:
     print('wrong pin')
+
